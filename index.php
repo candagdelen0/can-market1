@@ -6,13 +6,13 @@ require_once("Ayarlar/fonksiyonlar.php");
 require_once("Ayarlar/sayfaAyar.php");
 
 if(isset($_REQUEST["SK"])){
-	$SayfaKoduDegeri	=	NanumberFilter($_REQUEST["SK"]);
+	$SayfaKoduDegeri	=	SayiliIcerikleriFiltrele($_REQUEST["SK"]);
 }else{
 	$SayfaKoduDegeri	=	0;
 }
 
 if(isset($_REQUEST["SYF"])){
-	$Sayfalama			=	NanumberFilter($_REQUEST["SYF"]);
+	$Sayfalama			=	SayiliIcerikleriFiltrele($_REQUEST["SYF"]);
 }else{
 	$Sayfalama			=	1;
 }

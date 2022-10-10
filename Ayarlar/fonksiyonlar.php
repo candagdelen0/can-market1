@@ -10,6 +10,15 @@ function TarihBul($Deger){
 	return $Sonuc;
 }
 
+function UcGunIleriTarihBul(){
+	global $ZamanDamgasi;
+	$BirGun				=	86400;
+	$Hesapla			=	$ZamanDamgasi+(3*$BirGun);
+	$Cevir				=	date("d.m.Y", $Hesapla);
+	$Sonuc				=	$Cevir;
+	return $Sonuc;
+}
+
 function RakamlarHaricTumKarakterleriSil($Deger){
 	$Islem=preg_replace("/[^0-9]/", "", $Deger);
 	$Sonuc=$Islem;
@@ -36,7 +45,7 @@ function DonusumleriGeriDondur($Deger){
 	return $Sonuc;
 }
 
-function NanumberFilter($Deger){
+function SayiliIcerikleriFiltrele($Deger){
 	$BoslukSil	=	trim($Deger);
 	$TaglariTemizle	=	strip_tags($BoslukSil);
 	$EtkisizYap	=	htmlspecialchars($TaglariTemizle, ENT_QUOTES);
