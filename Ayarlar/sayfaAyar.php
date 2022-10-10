@@ -86,4 +86,8 @@ $Sayfa[83]		=	"urundetay.php";
 $Sayfa[84]		=	"bilgisayarlar.php";
 $Sayfa[85]		=	"telefonlar.php";
 $Sayfa[86]		=	"akillisaatler.php";
+$Sayfa[87]		=	"favorilereekle.php";
+$Sayfa[88]		=	"favorilereekletamam.php";
+$Sayfa[89]		=	"favorilereeklehata.php";
+$Sayfa[90]		=	"favorilereekletekrarlanan.php";
 ?>
