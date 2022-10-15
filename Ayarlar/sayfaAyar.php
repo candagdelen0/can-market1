@@ -93,4 +93,17 @@ $Sayfa[90]		=	"favorilereekletekrarlanan.php";
 $Sayfa[91]		=	"sepeteekle.php";
 $Sayfa[92]		=	"sepeteeklehata.php";
 $Sayfa[93]		=	"sepeteekleuyegirisiyapilmamis.php";
+$Sayfa[94]		=	"alisverissepeti.php";
+$Sayfa[95]		=	"alisverissepetiurunsil.php";
+$Sayfa[96]		=	"alisverissepetiurunadetazalt.php";
+$Sayfa[97]		=	"alisverissepetiurunadetarttir.php";
+$Sayfa[98]		=	"alisverissepetiadresvekargosecimi.php";
+$Sayfa[99]		=	"alisverissepetiodemesecimi.php";
+$Sayfa[100]		=	"alisverissepetiodemesecimisonuc.php";
+$Sayfa[101]		=	"alisverissepetibankahavalesiileodemetamam.php";
+$Sayfa[102]		=	"alisverissepetibankahavalesiileodemehata.php";
+$Sayfa[103]		=	"alisverissepetikredikartiodeme.php";
+$Sayfa[104]		=	"alisverissepetikredikartiodemesonuc.php";
+$Sayfa[105]		=	"alisverissepetikredikartiodemesonuctamam.php";
+$Sayfa[106]		=	"alisverissepetikredikartiodemesonuchata.php";
 ?>
